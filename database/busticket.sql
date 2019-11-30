@@ -89,6 +89,7 @@ INSERT INTO `cancel` (`id`, `phone`, `ticket`, `amount`, `txnId`, `email`, `busI
 (28, '2020', 'e3, e4, ', 400, '2', '1@gmail.com', 32),
 (29, '8722275074', 'd3, e3, ', 900, '2', '1@gmail.com', 21),
 (30, '2', 'a1, d1, ', 400, '2', '1@gmail.com', 32);
+(31, '7090391044', 'c3, ', 450, '2', 'ni@gmail.com', 21);
 
 -- --------------------------------------------------------
 
@@ -194,6 +195,7 @@ INSERT INTO `payment` (`id`, `phone`, `ticket`, `amount`, `txnId`, `email`, `bus
 (58, '2020', 'e3, e4, ', '400', '2', '1@gmail.com', '32'),
 (59, '8722275074', 'd3, e3, ', '900', '2', '1@gmail.com', '21'),
 (60, '2', 'a1, d1, ', '400', '2', '1@gmail.com', '32');
+(61, '7090391044', 'c3, ', '450', '2', 'ni@gmail.com', '21');
 
 -- --------------------------------------------------------
 
@@ -368,6 +370,7 @@ INSERT INTO `users` (`id`, `username`, `email`, `phone`, `address`, `password`, 
 (5, '1', '1@gmail.com', '1', '1', '1', NULL, 0, NULL, 0),
 (6, '2', '2@gmail.com', '2', '2', '2', NULL, 0, NULL, 0),
 (8, '9', '9@gmail.com', '9', '9', '9', NULL, 0, NULL, 0);
+(10, 'nidhi', 'ni@gmail.com', '7090391044', 'mangalore', '1234', NULL, 0, NULL, 0);
 
 --
 -- Indexes for dumped tables
